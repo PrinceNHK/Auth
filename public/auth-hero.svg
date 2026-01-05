@@ -1,0 +1,48 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" rx="24" fill="#020617"/>
+  <rect x="20" y="20" width="600" height="320" rx="20" fill="#020617" stroke="#1E293B" stroke-width="1.5"/>
+
+  <rect x="44" y="56" width="120" height="12" rx="6" fill="#0F172A"/>
+  <rect x="44" y="80" width="88" height="10" rx="5" fill="#0F172A"/>
+  <rect x="44" y="104" width="64" height="10" rx="5" fill="#0F172A"/>
+
+  <circle cx="520" cy="96" r="40" fill="url(#paint0_radial)"/>
+  <circle cx="520" cy="96" r="26" stroke="#22C55E" stroke-opacity="0.85" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M507 96.5L514.5 104L533 86" stroke="#22C55E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="44" y="152" width="552" height="140" rx="16" fill="#020617" stroke="#1E293B" stroke-width="1.5"/>
+
+  <rect x="64" y="172" width="160" height="12" rx="6" fill="#0F172A"/>
+  <rect x="64" y="192" width="92" height="10" rx="5" fill="#0F172A"/>
+
+  <rect x="64" y="224" width="104" height="48" rx="12" fill="#22C55E"/>
+  <rect x="184" y="224" width="104" height="48" rx="12" fill="#020617" stroke="#1E293B" stroke-width="1.5"/>
+
+  <text x="88" y="252" fill="#020617" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600">
+    Login
+  </text>
+  <text x="201" y="252" fill="#E5E7EB" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">
+    Register
+  </text>
+
+  <circle cx="388" cy="222" r="20" fill="#0F172A"/>
+  <circle cx="452" cy="222" r="20" fill="#0F172A"/>
+  <circle cx="516" cy="222" r="20" fill="#0F172A"/>
+
+  <circle cx="388" cy="222" r="14" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-width="1.5"/>
+  <circle cx="452" cy="222" r="14" fill="#38BDF8" fill-opacity="0.12" stroke="#38BDF8" stroke-width="1.5"/>
+  <circle cx="516" cy="222" r="14" fill="#A855F7" fill-opacity="0.12" stroke="#A855F7" stroke-width="1.5"/>
+
+  <path d="M388 214C383.582 214 380 217.582 380 222C380 226.418 383.582 230 388 230C392.418 230 396 226.418 396 222C396 217.582 392.418 214 388 214Z" fill="#10B981"/>
+  <path d="M452 214C447.582 214 444 217.582 444 222C444 226.418 447.582 230 452 230C456.418 230 460 226.418 460 222C460 217.582 456.418 214 452 214Z" fill="#38BDF8"/>
+  <path d="M516 214C511.582 214 508 217.582 508 222C508 226.418 511.582 230 516 230C520.418 230 524 226.418 524 222C524 217.582 520.418 214 516 214Z" fill="#A855F7"/>
+
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(520 96) rotate(90) scale(40)">
+      <stop stop-color="#22C55E" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+</svg>
+

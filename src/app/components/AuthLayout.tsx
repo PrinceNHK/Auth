@@ -37,18 +37,27 @@ export default function AuthLayout({
           </div>
 
           <div className="relative h-52 md:h-64 rounded-2xl overflow-hidden border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative h-24 w-24 md:h-28 md:w-28 rounded-2xl bg-slate-950/70 border border-slate-800 flex items-center justify-center shadow-[0_0_40px_rgba(16,185,129,0.25)]">
+            <div className="absolute inset-0 grid grid-cols-2">
+              <div className="relative border-r border-slate-800/70">
                 <Image
-                  src="/globe.svg"
-                  alt="Global hiring illustration"
-                  width={56}
-                  height={56}
-                  className="opacity-90"
+                  src="/career-illustration-1.jpg"
+                  alt="Career growth illustration"
+                  fill
+                  priority
+                  className="object-cover object-center"
+                />
+              </div>
+              <div className="relative">
+                <Image
+                  src="/career-illustration-2.jpg"
+                  alt="Now hiring interface"
+                  fill
+                  priority
+                  className="object-cover object-center"
                 />
               </div>
             </div>
-            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between gap-4">
+            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between gap-4 bg-slate-950/60 backdrop-blur-sm px-4 py-2 rounded-xl mx-3 border border-slate-800/70">
               <div>
                 <p className="text-xs uppercase tracking-[0.15em] text-slate-300">
                   Trusted by hiring teams
